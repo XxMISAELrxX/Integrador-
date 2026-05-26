@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Adopción de Mascotas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <nav>
+      <a href="#">Adoptar</a>
+      <a href="#">Consultas</a>
+      <a href="#">AyudaAqui</a>
+      <a href="#">Donar</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- FILTRO -->
+    <aside class="filtro">
+      <h3>Filtrar Por</h3>
+      <hr>
+      <button onclick="filtrar('gato')">Gatos</button>
+      <button onclick="filtrar('perro')">Perros</button>
+      <button onclick="filtrar('todos')">Todos</button>
+    </aside>
+
+    <!-- TARJETAS -->
+    <main class="grid" id="mascotas">
+
+      <div class="card" data-tipo="perro">
+        <img src="https://placedog.net/200" alt="">
+        <p>Rocky</p>
+        <button>Adoptar</button>
+      </div>
+
+      <div class="card" data-tipo="gato">
+        <img src="https://nutrisourcepetfoods.com/wp-content/uploads/2020/03/shutterstock_67901620-1000x600sfw-1.jpg" alt="">
+        <p>Garfield</p>
+        <button>Adoptar</button>
+      </div>
+
+      <div class="card" data-tipo="perro">
+        <img src="https://placedog.net/201" alt="">
+        <p>Julio</p>
+        <button>Adoptar</button>
+      </div>
+
+      <div class="card" data-tipo="gato">
+        <img src="https://letraslibres.com/wp-content/uploads/2023/11/gato-domestico-evolucion.jpg" alt="">
+        <p>Lia</p>
+        <button>Adoptar</button>
+      </div>
+
+      <div class="card" data-tipo="perro">
+        <img src="https://placedog.net/202" alt="">
+        <p>Lucas</p>
+        <button>Adoptar</button>
+      </div>
+
+      <div class="card" data-tipo="gato">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/British_shorthair_Irina_AEA.JPG/960px-British_shorthair_Irina_AEA.JPG" alt="">
+        <p>Michi</p>
+        <button>Adoptar</button>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

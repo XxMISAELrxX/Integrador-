@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #e6c7a5;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color:rgb(165, 13, 224);  
+  font-weight: bold;
+}
+
+/* CONTENEDOR */
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+/* FILTRO */
+.filtro {
+  width: 200px;
+}
+
+.filtro button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  flex: 1;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BOTÓN */
+.card button {
+  background: #f4b942;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.card button:hover {
+  background: #e0a832;
+}
