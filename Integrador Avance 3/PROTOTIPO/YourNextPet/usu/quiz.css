@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, purple, pink);
+}
+
+.container {
+  width: 400px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.progress {
+  height: 6px;
+  background: #ddd;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.bar {
+  height: 100%;
+  width: 33%;
+  background: purple;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  cursor: pointer;
+  text-align: left;
+}
+
+button:hover {
+  background: #eee;
+}
