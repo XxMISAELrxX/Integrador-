@@ -1,0 +1,248 @@
+/* RESET */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f1f5;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 14px 40px;
+  background: white;
+
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #8a2be2, #ff4da6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 22px;
+}
+
+.logo h2 {
+  margin: 0;
+  color: #8a2be2;
+  font-size: 24px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 11px;
+  color: gray;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+nav button {
+  border: none;
+  padding: 10px 18px;
+
+  border-radius: 10px;
+
+  background: linear-gradient(135deg, #8a2be2, #ff4da6);
+
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+nav button:hover {
+  transform: translateY(-2px);
+}
+
+/* LOGIN */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 90px 20px;
+}
+
+/* CARD */
+.login-card {
+  width: 420px;
+
+  background: white;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  animation: aparecer 0.7s ease;
+}
+
+/* TOP */
+.top-card {
+  background: linear-gradient(135deg, #8a2be2, #ff2f92);
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+  color: white;
+}
+
+.circle-icon {
+  width: 60px;
+  height: 60px;
+
+  border-radius: 50%;
+
+  background: rgba(255,255,255,0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+
+  font-size: 28px;
+
+  margin-bottom: 15px;
+}
+
+.top-card h1 {
+  margin: 10px 0 5px;
+  font-size: 34px;
+}
+
+.top-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* FORM */
+.formulario {
+  padding: 0 20px 25px;
+}
+
+.formulario label {
+  display: block;
+
+  margin-top: 15px;
+  margin-bottom: 8px;
+
+  color: #8a2be2;
+
+  font-size: 13px;
+}
+
+.formulario label i {
+  margin-right: 5px;
+}
+
+.formulario input {
+  width: 100%;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  border: 1px solid #ddd;
+
+  outline: none;
+
+  box-sizing: border-box;
+
+  transition: 0.3s;
+}
+
+.formulario input:focus {
+  border: 2px solid #c23df7;
+  box-shadow: 0 0 10px rgba(194, 61, 247, 0.2);
+}
+
+/* BOTON */
+.submit-btn {
+  width: 100%;
+
+  margin-top: 25px;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: linear-gradient(135deg, #8a2be2, #ff2f92);
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 15px rgba(255, 0, 150, 0.3);
+}
+
+/* BOTTOM */
+.bottom-text {
+  text-align: center;
+
+  padding-bottom: 25px;
+
+  font-size: 14px;
+}
+
+.bottom-text a {
+  color: #8a2be2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ANIMACION */
+@keyframes aparecer {
+
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}

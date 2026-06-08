@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* CONTENEDOR */
+.donacion-container{
+    width: 420px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* TITULO */
+.donacion-container h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #8a2be2;
+}
+
+/* TEXTO */
+.donacion-container p{
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* LABELS */
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* INPUT */
+input{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* METODOS */
+.metodos{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.metodo{
+    flex: 1;
+}
+
+.metodo input{
+    display: none;
+}
+
+.metodo label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+    border-radius: 12px;
+    border: 2px solid #ddd;
+
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* COLORES */
+.tarjeta label{
+    color: #8a2be2;
+}
+
+.yape label{
+    color: #7b1fa2;
+}
+
+.plin label{
+    color: #00bcd4;
+}
+
+/* SELECCIONADO */
+.metodo input:checked + label{
+    background: #17c964;
+    color: white;
+    border-color: #17c964;
+}
+
+/* BOTON */
+.btn-donar{
+    width: 100%;
+    height: 50px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #17c964;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-donar:hover{
+    transform: scale(1.02);
+}
