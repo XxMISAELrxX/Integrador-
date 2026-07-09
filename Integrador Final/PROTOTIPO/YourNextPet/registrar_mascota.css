@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f7f1f5;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.container{
+    width: 100%;
+    max-width: 550px;
+
+    background: white;
+
+    border-radius: 25px;
+    overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+
+.top-card{
+    background: linear-gradient(135deg,#8a2be2,#ff2f92);
+
+    text-align: center;
+    color: white;
+
+    padding: 35px 20px;
+}
+
+.icono{
+    width: 70px;
+    height: 70px;
+
+    margin: auto;
+    margin-bottom: 15px;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+.top-card h1{
+    margin-bottom: 10px;
+}
+
+form{
+    padding: 25px;
+}
+
+label{
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 8px;
+
+    color: #8a2be2;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    outline: none;
+
+    font-size: 14px;
+
+    transition: .3s;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-color: #c23df7;
+    box-shadow: 0 0 10px rgba(194,61,247,.2);
+}
+
+.btn-guardar{
+    width: 100%;
+    margin-top: 25px;
+
+    padding: 15px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: linear-gradient(135deg,#8a2be2,#ff2f92);
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.btn-guardar:hover{
+    transform: translateY(-2px);
+}

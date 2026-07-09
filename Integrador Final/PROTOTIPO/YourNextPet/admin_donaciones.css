@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:#f7f1f5;
+}
+
+.contenedor-donaciones{
+    max-width:1200px;
+    margin:50px auto;
+    padding:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+}
+
+.info-panel{
+    width:350px;
+    text-align:center;
+}
+
+.info-panel i{
+    font-size:60px;
+    color:#8a2be2;
+    margin-bottom:15px;
+}
+
+.info-panel h1{
+    color:#8a2be2;
+    font-size:38px;
+    margin-bottom:15px;
+    line-height:1.1;
+}
+
+.info-panel p{
+    color:#666;
+    font-size:15px;
+    line-height:1.7;
+}
+
+.tabla-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+    overflow-x:auto;
+}
+
+table{
+    border-collapse:collapse;
+    min-width:650px;
+}
+
+thead{
+    background:linear-gradient(
+        135deg,
+        #8a2be2,
+        #6d0596
+    );
+}
+
+th{
+    color:white;
+    padding:15px;
+    font-size:14px;
+}
+
+td{
+    padding:15px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+    font-size:14px;
+}
+
+tbody tr:hover{
+    background:#faf5ff;
+    transition:.3s;
+}
+
+.monto{
+    color:#16a34a;
+    font-weight:700;
+}
